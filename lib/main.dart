@@ -18,6 +18,8 @@ class MyApp extends StatelessWidget {
             height: 200.0,
             decoration: BoxDecoration(
               color: Colors.blue,
+              shape: BoxShape.rectangle,
+              gradient: LinearGradient(colors: [Colors.green,Colors.orange]),
               borderRadius: BorderRadius.circular(20.0),
             ),
             alignment: Alignment.center,
